@@ -1,0 +1,10 @@
+Menu Scene:
+	
+-mouse click to pick level you would like to play.
+
+Level Scenes:
+
+-collect all crystal to finish the level,
+-hit "escape" to come back to the menu,
+-hit "W" to move forward or "A or D" to rotate
+-click LeftMouseClick to attack.
