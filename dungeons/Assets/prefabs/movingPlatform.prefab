@@ -29,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5375878824366580627}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 8, y: 0, z: -1}
-  m_LocalScale: {x: 2, y: 2, z: 0.25}
+  m_LocalPosition: {x: 7.660412, y: -0.97980344, z: -4.921653}
+  m_LocalScale: {x: 200, y: 200, z: 25}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -42,7 +42,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5375878824366580627}
-  m_Mesh: {fileID: 4300000, guid: ff7d723e18e8f7a4789397fd1bc1d7e5, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 6c8442c23e8b2bf4392c41910144a2b6, type: 3}
 --- !u!23 &5375878824364391763
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -93,7 +93,7 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: ff7d723e18e8f7a4789397fd1bc1d7e5, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 6c8442c23e8b2bf4392c41910144a2b6, type: 3}
 --- !u!54 &5164596633721924485
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -122,4 +122,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ba220ea840c9424baa76bf0e5855c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delta: {x: 5, y: 7, z: 0}
+  delta: {x: 0, y: 0, z: 0}

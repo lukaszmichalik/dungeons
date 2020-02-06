@@ -29,7 +29,7 @@ public class MovingPlatform : MonoBehaviour
             Gizmos.color = Color.yellow;
         }
         Vector3 ghostPosition = transform.position + delta;
-        Vector3 ghostSize = transform.rotation * transform.localScale *2f;
+        Vector3 ghostSize = transform.rotation * transform.localScale/50f;
 
 
         Gizmos.DrawWireCube(ghostPosition,ghostSize);
